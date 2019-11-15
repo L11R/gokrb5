@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
+	"gopkg.in/L11R/gokrb5.v7/client"
+	"gopkg.in/L11R/gokrb5.v7/config"
+	"gopkg.in/L11R/gokrb5.v7/credentials"
 	goidentity "gopkg.in/jcmturner/goidentity.v3"
-	"gopkg.in/jcmturner/gokrb5.v7/client"
-	"gopkg.in/jcmturner/gokrb5.v7/config"
-	"gopkg.in/jcmturner/gokrb5.v7/credentials"
 )
 
 // NewKRB5BasicAuthenticator creates a new NewKRB5BasicAuthenticator

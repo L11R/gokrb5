@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"os"
 
+	"gopkg.in/L11R/gokrb5.v7/keytab"
+	"gopkg.in/L11R/gokrb5.v7/service"
+	"gopkg.in/L11R/gokrb5.v7/spnego"
+	"gopkg.in/L11R/gokrb5.v7/test/testdata"
 	goidentity "gopkg.in/jcmturner/goidentity.v3"
-	"gopkg.in/jcmturner/gokrb5.v7/keytab"
-	"gopkg.in/jcmturner/gokrb5.v7/service"
-	"gopkg.in/jcmturner/gokrb5.v7/spnego"
-	"gopkg.in/jcmturner/gokrb5.v7/test/testdata"
 )
 
 const (

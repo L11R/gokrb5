@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
+	"gopkg.in/L11R/gokrb5.v7/crypto/common"
+	"gopkg.in/L11R/gokrb5.v7/crypto/etype"
 	"gopkg.in/jcmturner/aescts.v1"
-	"gopkg.in/jcmturner/gokrb5.v7/crypto/common"
-	"gopkg.in/jcmturner/gokrb5.v7/crypto/etype"
 )
 
 // EncryptData encrypts the data provided using methods specific to the etype provided as defined in RFC 3962.

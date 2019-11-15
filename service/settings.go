@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
-	"gopkg.in/jcmturner/gokrb5.v7/keytab"
-	"gopkg.in/jcmturner/gokrb5.v7/types"
+	"gopkg.in/L11R/gokrb5.v7/keytab"
+	"gopkg.in/L11R/gokrb5.v7/types"
 )
 
 // Settings defines service side configuration settings.

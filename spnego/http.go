@@ -14,13 +14,13 @@ import (
 	"net/url"
 	"strings"
 
+	"gopkg.in/L11R/gokrb5.v7/client"
+	"gopkg.in/L11R/gokrb5.v7/gssapi"
+	"gopkg.in/L11R/gokrb5.v7/keytab"
+	"gopkg.in/L11R/gokrb5.v7/krberror"
+	"gopkg.in/L11R/gokrb5.v7/service"
+	"gopkg.in/L11R/gokrb5.v7/types"
 	"gopkg.in/jcmturner/goidentity.v3"
-	"gopkg.in/jcmturner/gokrb5.v7/client"
-	"gopkg.in/jcmturner/gokrb5.v7/gssapi"
-	"gopkg.in/jcmturner/gokrb5.v7/keytab"
-	"gopkg.in/jcmturner/gokrb5.v7/krberror"
-	"gopkg.in/jcmturner/gokrb5.v7/service"
-	"gopkg.in/jcmturner/gokrb5.v7/types"
 )
 
 // Client side functionality //

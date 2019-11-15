@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"gopkg.in/jcmturner/gokrb5.v7/asn1tools"
-	"gopkg.in/jcmturner/gokrb5.v7/iana"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/asnAppTag"
+	"gopkg.in/L11R/gokrb5.v7/asn1tools"
+	"gopkg.in/L11R/gokrb5.v7/iana"
+	"gopkg.in/L11R/gokrb5.v7/iana/asnAppTag"
 )
 
 /*Authenticator   ::= [APPLICATION 2] SEQUENCE  {
