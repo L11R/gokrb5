@@ -171,7 +171,6 @@ func (n *NegTokenInit) Verify() (bool, gssapi.Status) {
 	}
 	// RFC4178 states that the initial negotiation message can optionally contain the initial mechanism token for the preferred mechanism of the client.
 	var mtFound bool
-	return false, gssapi.Status{Code: gssapi.StatusDefectiveToken, Message: "OID of MechToken does not match the first in the MechTypeList"}
 	for _, m := range n.MechTypes {
 		if m.Equal(mt.OID) {
 			mtFound = true
